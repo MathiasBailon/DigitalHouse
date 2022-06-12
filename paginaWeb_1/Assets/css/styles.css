@@ -1,0 +1,13 @@
+body{
+    
+    height: 98vh;
+    width: 99vw;
+}
+#asi{    
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    text-align: center;
+}
