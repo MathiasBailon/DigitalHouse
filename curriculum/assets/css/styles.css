@@ -1,0 +1,27 @@
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+h1, h2{
+    width: 100vw;
+    color: #005677;
+    background-color: #C4C4C4;
+}
+dd {
+    padding-left: 40px;
+}section {
+    padding-left: 10px;
+}
+footer{
+    width: 100vw;
+    bottom: 0;
+    position: flex;
+    text-align: center;
+    background-color: #005677;
+}
+body{
+    height: 100vh;
+}
+img{
+    max-width: 200px;
+}
