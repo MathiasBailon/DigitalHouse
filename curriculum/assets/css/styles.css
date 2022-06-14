@@ -1,27 +1,69 @@
+/*  a Tag styles*/
+a {
+    color: #000;
+    text-decoration: none;
+}
+/*      Header config          */
 header{
-    background-color: #E6E6E6;
+    background-image: url(../img/space.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+header img{
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+/*      Main        */
+main, h1{
+    padding-inline: 10px;
+}
+ul{
+    
+    padding: 0px;
+}
+h3{
     text-align: center;
 }
-h1, h2{
-    width: 100vw;
+h1, h2, h3{
     color: #005677;
     background-color: #C4C4C4;
 }
 dd {
     padding-left: 40px;
-}section {
-    padding-left: 10px;
 }
+
+
 footer{
-    width: 100vw;
-    bottom: 0;
     position: flex;
     text-align: center;
     background-color: #005677;
+    border-radius: 0px 0px 5px 5px;
 }
+
+
 body{
-    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-image: url(../img/space.jpg);
+    background-position: center;
 }
-img{
-    max-width: 200px;
+
+/*      IDs     */
+#container{
+    align-self: center;
+    border-radius: 10px;
+    background: rgb(173, 172, 172);
+    max-width: 85vw;
+}
+
+/*      Classes     */
+.important{
+    font-size: 17px;
 }
