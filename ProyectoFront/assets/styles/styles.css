@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+header, main, main>section, footer, section{
+    display: flex;
+}
+
+#Carousel{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#Carousel>div{
+    max-width:  700px;
+    display: flex;
+}
+
+footer, main{
+    flex-direction: column;
+}
+hr{
+    width: 100%;
+}
