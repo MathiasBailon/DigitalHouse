@@ -1,23 +1,156 @@
-*{
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+section {
+    padding: 20px;
+}
+
+* {
     box-sizing: border-box;
 }
-header, main, main>section, footer, section{
+
+/*###################################   TAGS    ####################################*/
+
+header,
+main,
+main>section,
+footer,
+section,
+ul {
     display: flex;
+    color: #242E52;
 }
 
-#Carousel{
-    flex-direction: column;
-    align-content: center;
+header, #Carousel, #MidContent{
+    max-width: 80%;
+}
+
+
+footer {
+    /*              ##############  footer  ##############              */
+    background-color: #1E1E26;
+    width: 100%;
+
+}
+
+#suscribe {
+    color: #FFF;
+    background-color: #F3613C;
+}
+
+footer a {
+    color: #FFF
+}
+
+
+
+/*##############################    IDs     #############################*/
+#Carousel {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#Carousel div {
+    display: flex;
+    padding: 20px;
+
+}
+
+#Carousel img {
+    size: 70px;
+    border-radius: 100%;
+}
+
+#Carousel p {
+    text-align: center;
+    color: #B9B9C1;
+}
+
+#Carousel span {
+    color: #242E53;
+    font-weight: bold;
+}
+
+
+#suscribe h2 {
+    font-size: 40px;
+    max-width: 30%;
+}
+#suscribe .btn{
+    color: #F3603B;
+}
+
+/*##############################    Classes     #############################*/
+.slogan{
+    max-width: 440px;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #F3603B;
+    height: 45px;
+    border-style: none;
+    padding: 5px 30px;
+    color: #FFF;
+}
+.round{
+    border-radius: 50px;
+}
+
+.spaced {
+    justify-content: space-around;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.xcentered {
+    align-items: center;
+}
+
+.ycentered {
     justify-content: center;
 }
-#Carousel>div{
-    max-width:  700px;
-    display: flex;
-}
 
-footer, main{
+.column {
+    display: flex;
     flex-direction: column;
 }
-hr{
+
+.separated {
+    justify-content: space-between;
+}
+.footer-bg{
+    background-color: #FFF;
+}
+/*##############################    individual elements     #############################*/
+hr {
     width: 100%;
+}
+
+h1 {
+    font-size: 58px;
+    color: #232C50;
+}
+h2{
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #242E52;
+}
+
+li {
+    padding: 10px;
 }

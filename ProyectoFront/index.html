@@ -9,24 +9,27 @@
     <title>Document</title>
 </head>
 
-<body>
-    <header>
+<body class="xcentered">
+    <header class="spaced xcentered">
         <img src="assets/img/logo.svg" alt="Logo Header">
-        <div>
-            <ul type="none">
+        <nav>
+            <ul type="none" class="spaced row">
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Product</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Careers</a></li>
                 <li><a href="">Community</a></li>
             </ul>
-        </div>
-        <a href="../paginaWeb_1/index.html"><button type="button">Get Started</button></a>
-    </header><hr>
+        </nav>
+        <a href="../paginaWeb_1/index.html">
+            <button type="button" class="btn round">Get Started</button>
+        </a>
+    </header>
+    <hr>
     <!--    #######################################     Start Main & Section Graphics     ############################################    -->
-    <main>
-        <section id="graphics">
-            <div>
+    <main class="column xcentered">
+        <section id="graphics" class="spaced row">
+            <div class="column slogan">
                 <h1>Bring everyone
                     together to build
                     better products.
@@ -34,19 +37,19 @@
                 <p> Manage makes it simple for software teams
                     to plan day-to-day tasks while keeping the
                     large team goals in view</p>
-                <a href="../paginaWeb_1/index.html"><button type="button">Get Started</button></a>
+                <a href="../paginaWeb_1/index.html"><button type="button" class="btn round">Get Started</button></a>
             </div>
             <div>
                 <div><img src="assets/img/illustration-intro.svg" alt="Graphics"></div>
             </div>
-        </section> <hr>
+        </section>
+        <hr>
         <!--    ##########################################  Section Mid Content  ########################################    -->
         <section id="MidContent">
             <div>
-                <h2>What´s different about
-                    Manage? </h2>
-                <p>Manage provides all the functionality your
-                    teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+                <h2>What´s different about Manage? </h2>
+                <p>Manage provides all the functionality your teas needs, without the complexity. Our software is
+                    tailor-made for modern digital product teams</p>
             </div>
             <div>
                 <ol>
@@ -68,67 +71,84 @@
                     </li>
                 </ol>
             </div>
-        </section><hr>
+        </section>
+        <hr>
         <!--    ####################################      Section Carousel    ######################################    -->
-        <section id="Carousel">
+        <section class="xcentered column">
             <h2>What they´ve said</h2>
-            <div>
-                <div>
+            <div id="Carousel">
+                <div class="xcentered column">
                     <img src="assets/img/avatar-ali.png" alt="avatar-ali">
+                    <span>Ali</span>
                     <p>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger
                         milestones at all times keeps everyone motivated.”</p>
                 </div>
-                <div>
+                <div class="xcentered column">
                     <img src="assets/img/avatar-anisha.png" alt="avatar-anisha">
+                    <span>Anisha</span>
                     <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more
                         cross-channel confusion and everyone is much more focused.”</p>
                 </div>
-                <div>
+                <div class="xcentered column">
                     <img src="assets/img/avatar-richard.png" alt="avatar-richard">
+                    <span>Richard</span>
                     <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t
                         stop recommending them to everyone i talk to!”</p>
                 </div>
-                <div>
+                <div class="xcentered column">
                     <img src="assets/img/avatar-shanai.png" alt="avatar-shanai">
+                    <span>Shanai</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quod optio? Sunt dolores,
                         animi voluptatum eaque vero amet sequi adipisci dolore eos asperiores cupiditate ea alias.
                         Officia eaque excepturi reprehenderit.</p>
                 </div>
             </div>
-            <a href="../paginaWeb_1/index.html"><button type="button">Get Started</button></a>
+            <a href="../paginaWeb_1/index.html"><button type="button" class="btn round">Get Started</button></a>
         </section>
     </main>
     <!--    ############################################################################################################    -->
-    <footer>
-        <section id="suscribe">
+    <footer class="column">
+        <section id="suscribe" class="spaced xcentered">
             <h2>Simplify hoy your team
                 words today.</h2>
-            <a href="../paginaWeb_1/index.html"><button type="button">Get Started</button></a>
+            <a href="../paginaWeb_1/index.html"><button type="button" class="btn round footer-bg">Get Started</button></a>
         </section>
-        <section id="footer">
-            <div>
-                <img src="assets/img/logo.svg" alt="Logo">
-                <a href=""><img src="assets/img/icon-facebook.svg" alt="FB"></a>
-                <a href=""><img src="assets/img/icon-youtube.svg" alt="YT"></a>
-                <a href=""><img src="assets/img/icon-twitter.svg" alt="Tw"></a>
-                <a href=""><img src="assets/img/icon-pinterest.svg" alt="P"></a>
-                <a href=""><img src="assets/img/icon-instagram.svg" alt="IG"></a>
+        <section id="footer" class="spaced row">
+            <div class="xcentered column ycentered">
+                <a href="index.html"><img src="assets/img/logo.svg" alt="Logo" ></a>
+                <ul type="none" class="spaced row ycentered">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank"><img src="assets/img/icon-facebook.svg" alt="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank"><img src="assets/img/icon-youtube.svg" alt="youtube"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank"><img src="assets/img/icon-twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com" target="_blank"><img src="assets/img/icon-pinterest.svg" alt="pinterest"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><img src="assets/img/icon-instagram.svg" alt="instagram"></a>
+                    </li>
+                </ul>
             </div>
-            <ul type="none">
+            <ul type="none" class="column">
                 <li><a href="">Home</a></li>
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">About Us</a></li>
             </ul>
-            <ul type="none">
+            <ul type="none" class="column">
                 <li><a href="">Careers</a></li>
                 <li><a href="">Community</a></li>
                 <li><a href="">Privacy Policy</a></li>
             </ul>
-            <div>
+            <div class="column spaced">
                 <form action="">
-                    <input type="text" name="" id="" placeholder="Update in your inbox...">
-                    <button>Go</button>
+                    <input type="text" name="" id="" class="btn round footer-bg" placeholder="Update in your inbox...">
+                    <button class="btn round">Go</button>
                 </form>
                 <span>Copyright 2020. All Rights Reserved</span>
             </div>
